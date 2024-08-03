@@ -1,0 +1,12 @@
+<templateSet group="Mine">
+  <template name="lt_inject_constructor" value="@Inject constructor()" description="Add @Inject with empty constructor()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="lt_inject_assisted_constructor" value="@AssistedInject constructor(&#10;    @Assisted private val example: String,&#10;)" description="Add @AssistedInject with assisted constructor()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
